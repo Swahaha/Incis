@@ -9,6 +9,9 @@ from io import BytesIO
 from PIL import ImageGrab, Image
 from pytesseract import pytesseract
 
+#hello
+print("hello")
+
 class Application:
     def __init__(self, master):
         self.master = master
