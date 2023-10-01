@@ -43,7 +43,7 @@ class Application:
         self.current_y = None
 
         self.tesseract_path = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
-        self.pytesseract_path = r'C:\Users\Swarajh Mehta\Desktop\Projects\Incisus\trial.jpg'
+        self.pytesseract_path = 'trial.jpg'
         pytesseract.tesseract_cmd = self.tesseract_path
 
     def create_screen_canvas(self):
