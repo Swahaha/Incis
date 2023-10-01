@@ -14,4 +14,5 @@ So, I set out to resolve this by making a system-wide snipping tool that directl
 
 ## Video Demo
 
-<video src="Incis.demo.mp4" controls title="Incis Demo"></video>
+https://github.com/Swahaha/Incis/assets/113793669/c13e1b0f-ae12-4b67-abdb-b20c6c59bc11
+
