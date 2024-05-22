@@ -1,0 +1,4 @@
+2024-05-22 16:51:00,057 - DEBUG - Creating screen canvas
+2024-05-22 16:51:02,066 - DEBUG - Rectangle position: 536, 345, 999, 476
+2024-05-22 16:51:02,066 - DEBUG - Screenshot dimensions: 536, 345, 463, 131
+2024-05-22 16:51:02,066 - DEBUG - Taking screenshot with region: (536, 345, 463, 131)

@@ -1,14 +1,12 @@
 import tkinter as tk
 from tkinter import *
-import os
 import pyautogui
-import datetime
 import win32clipboard as clip
-import win32con
-from io import BytesIO
-from PIL import ImageGrab, Image
+from PIL import Image
 from pytesseract import pytesseract
+import logging
 
+logging.basicConfig(filename="debug.log", level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 class Application:
     def __init__(self, master):
@@ -47,6 +45,7 @@ class Application:
         pytesseract.tesseract_cmd = self.tesseract_path
 
     def create_screen_canvas(self):
+        logging.debug("Creating screen canvas")
         self.master_screen.deiconify()
         self.master.withdraw()
 
@@ -66,6 +65,7 @@ class Application:
         self.display_rectangle_position()
 
         x, y, width, height = self.get_screenshot_dimensions()
+        logging.debug(f"Screenshot dimensions: {x}, {y}, {width}, {height}")
 
         self.take_bounded_screenshot(x, y, width, height)
 
@@ -86,25 +86,22 @@ class Application:
         self.master.deiconify()
 
     def on_button_press(self, event):
-        self.start_x = self.snip_surface.canvasx(event.x)
-        self.start_y = self.snip_surface.canvasy(event.y)
+        self.start_x = int(self.snip_surface.canvasx(event.x))
+        self.start_y = int(self.snip_surface.canvasy(event.y))
         self.snip_surface.create_rectangle(0, 0, 1, 1, outline='red', width=3, fill="maroon3")
 
     def on_snip_drag(self, event):
-        self.current_x, self.current_y = (event.x, event.y)
+        self.current_x, self.current_y = int(event.x), int(event.y)
         self.snip_surface.coords(1, self.start_x, self.start_y, self.current_x, self.current_y)
 
     def display_rectangle_position(self):
-        print(self.start_x)
-        print(self.start_y)
-        print(self.current_x)
-        print(self.current_y)
+        logging.debug(f"Rectangle position: {self.start_x}, {self.start_y}, {self.current_x}, {self.current_y}")
 
     def get_screenshot_dimensions(self):
-        x = min(self.start_x, self.current_x)
-        y = min(self.start_y, self.current_y)
-        width = abs(self.current_x - self.start_x)
-        height = abs(self.current_y - self.start_y)
+        x = int(min(self.start_x, self.current_x))
+        y = int(min(self.start_y, self.current_y))
+        width = int(abs(self.current_x - self.start_x))
+        height = int(abs(self.current_y - self.start_y))
         return x, y, width, height
 
     def update_textbox_size(self):
@@ -125,14 +122,18 @@ class Application:
         self.set_clipboard_text(edited_text)
 
     def take_bounded_screenshot(self, x, y, width, height):
-        image = pyautogui.screenshot(region=(x, y, width, height))
+        logging.debug(f"Taking screenshot with region: ({x}, {y}, {width}, {height})")
+        region = (x, y, width, height)
+        if width > 0 and height > 0:
+            image = pyautogui.screenshot(region=region)
+            image.save(self.pytesseract_path)
 
-        image.save(self.pytesseract_path)
+            img = Image.open(self.pytesseract_path)
+            data = pytesseract.image_to_string(img, config='-c preserve_interword_spaces=1')
 
-        img = Image.open(self.pytesseract_path)
-        data = pytesseract.image_to_string(img, config='-c preserve_interword_spaces=1')
-
-        self.set_clipboard_text(data)
+            self.set_clipboard_text(data)
+        else:
+            logging.error("Width and height must be greater than zero to take a screenshot")
 
     def set_clipboard_text(self, text):
         clip.OpenClipboard()

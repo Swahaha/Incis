@@ -1,0 +1,79 @@
+('C:\\Users\\Swarajh '
+ 'Mehta\\Desktop\\Projects\\gitincis\\Incis\\build\\main\\main.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True,
+  'SYMLINK': False},
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'C:\\Users\\Swarajh '
+   'Mehta\\Desktop\\Projects\\gitincis\\Incis\\build\\main\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\Swarajh '
+   'Mehta\\Desktop\\Projects\\gitincis\\Incis\\build\\main\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'C:\\Users\\Swarajh '
+   'Mehta\\Desktop\\Projects\\gitincis\\Incis\\build\\main\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'C:\\Users\\Swarajh '
+   'Mehta\\Desktop\\Projects\\gitincis\\Incis\\build\\main\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'C:\\Users\\Swarajh '
+   'Mehta\\Desktop\\Projects\\gitincis\\Incis\\build\\main\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'C:\\Users\\Swarajh '
+   'Mehta\\Desktop\\Projects\\gitincis\\Incis\\build\\main\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'C:\\Users\\Swarajh '
+   'Mehta\\Desktop\\Projects\\gitincis\\Incis\\venv\\lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\Swarajh '
+   'Mehta\\Desktop\\Projects\\gitincis\\Incis\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\Swarajh '
+   'Mehta\\Desktop\\Projects\\gitincis\\Incis\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Users\\Swarajh '
+   'Mehta\\Desktop\\Projects\\gitincis\\Incis\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgres',
+   'C:\\Users\\Swarajh '
+   'Mehta\\Desktop\\Projects\\gitincis\\Incis\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('pyi_rth_pywintypes',
+   'C:\\Users\\Swarajh '
+   'Mehta\\Desktop\\Projects\\gitincis\\Incis\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\rthooks\\pyi_rth_pywintypes.py',
+   'PYSOURCE'),
+  ('pyi_rth_pythoncom',
+   'C:\\Users\\Swarajh '
+   'Mehta\\Desktop\\Projects\\gitincis\\Incis\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\rthooks\\pyi_rth_pythoncom.py',
+   'PYSOURCE'),
+  ('pyi_rth__tkinter',
+   'C:\\Users\\Swarajh '
+   'Mehta\\Desktop\\Projects\\gitincis\\Incis\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py',
+   'PYSOURCE'),
+  ('Main',
+   'C:\\Users\\Swarajh Mehta\\Desktop\\Projects\\gitincis\\Incis\\Main.py',
+   'PYSOURCE')],
+ 'python310.dll',
+ True,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)
