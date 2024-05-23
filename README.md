@@ -1,11 +1,27 @@
 # Incis
 Optical character recognition (OCR) Snipping tool that copies text from screenshots to clipboard.
 
-Built using front-end python (Tkinter, PyQt5 libraries) and Google’s Tesseract OCR engine API
+Built using front-end python (Tkinter, PyQt5 libraries) and Google’s Tesseract OCR engine API.
 
 ## Installation Instructions
 
-Run ``````
+1. **Download the Installer**:
+   - Go to the [GitHub repository](https://github.com/Swahaha/Incis).
+   - Download the `setup.exe` file from the repository.
+
+2. **Run the Installer**:
+   - Open the terminal (Command Prompt or PowerShell) and navigate to the directory where you downloaded `setup.exe`.
+   - Run the following command:
+
+     ```sh
+     setup.exe
+     ```
+
+3. **Follow the Installation Steps**:
+   - Follow the on-screen instructions to complete the installation process.
+
+4. **Launch the Application**:
+   - After installation, you can launch the application from the Start Menu or by using the shortcut created on your desktop.
 
 ## Inspiration
 
