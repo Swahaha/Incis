@@ -1,10 +1,10 @@
 ('C:\\Users\\Swarajh '
  'Mehta\\Desktop\\Projects\\gitincis\\Incis\\build\\main\\main.exe',
- True,
+ False,
  False,
  True,
  'C:\\Users\\Swarajh '
- 'Mehta\\Desktop\\Projects\\gitincis\\Incis\\venv\\lib\\site-packages\\PyInstaller\\bootloader\\images\\icon-console.ico',
+ 'Mehta\\Desktop\\Projects\\gitincis\\Incis\\venv\\lib\\site-packages\\PyInstaller\\bootloader\\images\\icon-windowed.ico',
  None,
  False,
  False,
@@ -62,14 +62,6 @@
    'C:\\Users\\Swarajh '
    'Mehta\\Desktop\\Projects\\gitincis\\Incis\\venv\\lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
    'PYSOURCE'),
-  ('pyi_rth_pkgutil',
-   'C:\\Users\\Swarajh '
-   'Mehta\\Desktop\\Projects\\gitincis\\Incis\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
-   'PYSOURCE'),
-  ('pyi_rth_multiprocessing',
-   'C:\\Users\\Swarajh '
-   'Mehta\\Desktop\\Projects\\gitincis\\Incis\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
-   'PYSOURCE'),
   ('pyi_rth_inspect',
    'C:\\Users\\Swarajh '
    'Mehta\\Desktop\\Projects\\gitincis\\Incis\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
@@ -86,6 +78,14 @@
    'C:\\Users\\Swarajh '
    'Mehta\\Desktop\\Projects\\gitincis\\Incis\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\rthooks\\pyi_rth_pythoncom.py',
    'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\Swarajh '
+   'Mehta\\Desktop\\Projects\\gitincis\\Incis\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\Swarajh '
+   'Mehta\\Desktop\\Projects\\gitincis\\Incis\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
   ('pyi_rth__tkinter',
    'C:\\Users\\Swarajh '
    'Mehta\\Desktop\\Projects\\gitincis\\Incis\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py',
@@ -96,10 +96,10 @@
  [],
  False,
  False,
- 1716411048,
- [('run.exe',
+ 1716431966,
+ [('runw.exe',
    'C:\\Users\\Swarajh '
-   'Mehta\\Desktop\\Projects\\gitincis\\Incis\\venv\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run.exe',
+   'Mehta\\Desktop\\Projects\\gitincis\\Incis\\venv\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\runw.exe',
    'EXECUTABLE')],
  'C:\\Program '
  'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\\python310.dll')

@@ -3,6 +3,10 @@ Optical character recognition (OCR) Snipping tool that copies text from screensh
 
 Built using front-end python (Tkinter, PyQt5 libraries) and Google’s Tesseract OCR engine API
 
+## Installation Instructions
+
+Run ``````
+
 ## Inspiration
 
 The inspiration for this project largely came from my frustration while collecting data for Physics research. I had to manually input a lot of data from images and was unable to find easy-to-use OCR applications. 

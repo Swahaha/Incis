@@ -8,7 +8,7 @@ a = Analysis(
     pathex=['C:\\Users\\Swarajh Mehta\\Desktop\\Projects\\gitincis\\Incis'],
     binaries=[('C:\\Users\\Swarajh Mehta\\Desktop\\Projects\\gitincis\\Incis\\venv\\Lib\\site-packages\\pywin32_system32\\pywintypes310.dll', '.')],
     datas=[('last.jpg', '.'), ('C:\\Program Files\\Tesseract-OCR\\tesseract.exe', '.')],
-    hiddenimports=['pyautogui', 'pyscreeze', 'PIL', 'pytesseract', 'win32clipboard'],
+    hiddenimports=[],
     hookspath=[],
     runtime_hooks=[],
     excludes=[],
@@ -32,7 +32,7 @@ exe = EXE(
     upx=True,
     upx_exclude=[],
     runtime_tmpdir=None,
-    console=True,
+    console=False,  # Set to False to remove the console window
 )
 
 coll = COLLECT(
