@@ -5,9 +5,7 @@ Built using front-end python (Tkinter, PyQt5 libraries) and Google’s Tesseract
 
 ## Installation Instructions
 
-1. **Download the Installer**:
-   - Go to the [GitHub repository](https://github.com/Swahaha/Incis).
-   - Download the `setup.exe` file from the repository.
+1. **Download the `setup.exe` file**
 
 2. **Run the Installer**:
    - Open the terminal (Command Prompt or PowerShell) and navigate to the directory where you downloaded `setup.exe`.
@@ -21,7 +19,7 @@ Built using front-end python (Tkinter, PyQt5 libraries) and Google’s Tesseract
    - Follow the on-screen instructions to complete the installation process.
 
 4. **Launch the Application**:
-   - After installation, you can launch the application from the Start Menu or by using the shortcut created on your desktop.
+   - After installation, you can launch the application from the Start Menu, using the shortcut created on your desktop, or by pressing __ctrl + shift + s__.
 
 ## Inspiration
 
