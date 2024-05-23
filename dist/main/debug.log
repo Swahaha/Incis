@@ -2,3 +2,27 @@
 2024-05-22 16:51:02,066 - DEBUG - Rectangle position: 536, 345, 999, 476
 2024-05-22 16:51:02,066 - DEBUG - Screenshot dimensions: 536, 345, 463, 131
 2024-05-22 16:51:02,066 - DEBUG - Taking screenshot with region: (536, 345, 463, 131)
+2024-05-22 17:00:28,304 - DEBUG - Creating screen canvas
+2024-05-22 17:00:30,597 - DEBUG - Rectangle position: 649, 440, 852, 546
+2024-05-22 17:00:30,597 - DEBUG - Screenshot dimensions: 649, 440, 203, 106
+2024-05-22 17:00:30,597 - DEBUG - Taking screenshot with region: (649, 440, 203, 106)
+2024-05-22 17:00:32,659 - DEBUG - Creating screen canvas
+2024-05-22 17:00:34,856 - DEBUG - Rectangle position: 690, 444, 778, 478
+2024-05-22 17:00:34,856 - DEBUG - Screenshot dimensions: 690, 444, 88, 34
+2024-05-22 17:00:34,864 - DEBUG - Taking screenshot with region: (690, 444, 88, 34)
+2024-05-22 17:00:37,290 - DEBUG - Creating screen canvas
+2024-05-22 17:00:38,984 - DEBUG - Rectangle position: 934, 700, 1095, 841
+2024-05-22 17:00:38,984 - DEBUG - Screenshot dimensions: 934, 700, 161, 141
+2024-05-22 17:00:38,984 - DEBUG - Taking screenshot with region: (934, 700, 161, 141)
+2024-05-22 17:00:48,199 - DEBUG - Creating screen canvas
+2024-05-22 17:00:50,140 - DEBUG - Rectangle position: 250, 620, 1618, 823
+2024-05-22 17:00:50,140 - DEBUG - Screenshot dimensions: 250, 620, 1368, 203
+2024-05-22 17:00:50,140 - DEBUG - Taking screenshot with region: (250, 620, 1368, 203)
+2024-05-22 17:00:55,619 - DEBUG - Creating screen canvas
+2024-05-22 17:00:57,709 - DEBUG - Rectangle position: 463, 543, 577, 576
+2024-05-22 17:00:57,709 - DEBUG - Screenshot dimensions: 463, 543, 114, 33
+2024-05-22 17:00:57,709 - DEBUG - Taking screenshot with region: (463, 543, 114, 33)
+2024-05-22 17:00:59,414 - DEBUG - Creating screen canvas
+2024-05-22 17:01:02,020 - DEBUG - Rectangle position: 441, 529, 1595, 876
+2024-05-22 17:01:02,020 - DEBUG - Screenshot dimensions: 441, 529, 1154, 347
+2024-05-22 17:01:02,020 - DEBUG - Taking screenshot with region: (441, 529, 1154, 347)
